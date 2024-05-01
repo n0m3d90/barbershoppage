@@ -15,82 +15,97 @@
 </head>
 <body>
     <!--header section-->
-    <header>
-        <img src="./images/Logo.jpg" alt="logo">
-        <div>
-            <ul><li><a href="About">About</a></li>
+    <header class="header">
+        <div class="container">
+            <img class="header_logo" src="./images/Logo.jpg" alt="logo">
+           <div class="header_menu">
+               <ul>
+                <li><a href="About">About</a></li>
                 <li><a href="Services-and-Prices">Services and Prices</a></li>
                 <li><a href="Barbers">Barbers</a></li>
                 <li><a href="Contacts">Contacts</a></li>
             </ul>
+           </div>
+           <a class="header_info" href="+38-044-111-11-11">+38 044 111 11 11</a>
+           <button class="header_button" type="button">Book a Service</button>
         </div>
-        <a href="+38-044-111-11-11">+38 044 111 11 11</a>
-        <button type="button">Book a Service</button>
     </header>
 
     <!--main section-->
     <main>
         <!--barber section-->
-    <section>
-        <h5>A hair salon for men in Kyiv</h5>
-        <h1>BarberShop</h1>
-        <p>We are experts in trendy men's haircuts.<br>
-        We work quickly, carefully, and tastefully.</p>
+    <section class="barber">
+        <div class="container">
+            <h5>A hair salon for men in Kyiv</h5>
+            <h1>BarberShop</h1>
+            <p>We are experts in trendy men's haircuts.<br>
+            We work quickly, carefully, and tastefully.</p>
+        </div>
+        
     </section>
 
     <!--about section-->
-    <section>
-        <img src="./images/barber1.jpg" alt="barber1">
-        <img src="./images/barber2.jpg" alt="barber2">
+    <section class="about_section">
+        <div class="about_section_img">
+            <img src="./images/barber1.jpg" alt="barber1">
+            <img src="./images/barber2.jpg" alt="barber2">
+        </div>
+       <div class="about_section_content">
         <h5>About</h5>
         <h2>The Best Barbershop in Your City</h2>
         <p>If you want to add more confidence to your image, you are definitely in the right place.</p>
         <p>We are a team that never rests on its laurels and yearns for change. And once you fall into the hands of our master, you will never be the same again. We are a team that is always on the same wavelength with clients. Therefore, we are always ready to improve everyone who comes to us!</p>
         <button type="button">Book a Service</button>
+       </div>
+        
     </section>
     <!--services and prices section-->
-    <section>
+    <section class="services">
         <h5>Spend time in the company of the best craftsmen</h5>
         <h2>Services and Prices</h2>
-        <ul>
-            <li>Men's Haircut  from 300 UAH </li>
-            <li>Beard Trim from 200 UAH</li>
-            <li>Mustache Trim  from 200 UAH</li>
-            <li>Straight Razor Shave  from 200 UAH</li>
-        </ul>
-        <ul>
-            <li>Trainee Haircut  from 50 UAH </li>
-            <li>Buzz Cut  from 200 UAH </li>
-            <li>Kids Haircut (under 12 y.o.) from 300 UAH </li>
-            <li>Gray Coverage  from 200 UAH </li>
-        </ul>
-        <button type="button">book a Service</button>
+        <div class="services_main">
+            <ul class="services_list1">
+                <li>Men's Haircut__________  from 300 UAH </li>
+                <li>Beard Trim______________ from 200 UAH</li>
+                <li>Mustache Trim__________  from 200 UAH</li>
+                <li>Straight Razor Shave______from 200 UAH</li>
+            </ul>
+            <ul class="services_list2">
+                <li>Trainee Haircut  from 50 UAH </li>
+                <li>Buzz Cut  from 200 UAH </li>
+                <li>Kids Haircut (under 12 y.o.) from 300 UAH </li>
+                <li>Gray Coverage  from 200 UAH </li>
+            </ul>
+        </div>
+        
+        <button type="button">BOOK A SERVICE</button>
     </section>
 
     <!--old school section-->
-    <section>
-        <ul>
+    <section class="old_school">
+        <ul class="old_school_list">
             <li>
-                <p>600<sup>+</sup></p>
-                <p>Satisfied Customers per Day</p>
+                <p class="old_school_list1">600<sup>+</sup></p>
+                <p class="old_school_list2">Satisfied Customers per Day</p>
             </li>
             <li>
-                <p>20<sup>+</sup></p>
-                <p>The Best Barbers of Kyiv</p>
+                <p class="old_school_list1">20<sup>+</sup></p>
+                <p class="old_school_list2">The Best Barbers of Kyiv</p>
             </li>
             <li>
-                <p>50<sup>+</sup></p>
-                <p>Excellent Service Awards</p>
+                <p class="old_school_list1">50<sup>+</sup></p>
+                <p class="old_school_list2">Excellent Service Awards</p>
             </li>
             <li>
-                <p>100<sup>+</sup></p>
-                <p>Gifts for Regular Customers</p>
+                <p class="old_school_list1">100<sup>+</sup></p>
+                <p class="old_school_list2">Gifts for Regular Customers</p>
             </li>
         </ul>
-
-        <h5>Old school</h5>
+        <div class="old_school_text">
+            <h5>Old school</h5>
         <h2>Why do they come to us?</h2>
-        <p>Only good things are said about us. But it is better to see and feel 1 time than to read 10 times. </p>
+        <p>Only good things are said about us. But it is better<br> to see and feel 1 time than to read 10 times. </p>
+        </div>
     </section>
     <!--oru barbers section-->
     <section>
@@ -110,11 +125,10 @@
                 <p>Extreme Barber</p>
             </li>
         </ul>
-        
-        
-        <!--latin section-->
     </section>
-    <h5>In Latin, "barba" means "beard"</h5>
+     <!--latin section-->
+     <section>
+        <h5>In Latin, "barba" means "beard"</h5>
     <ul>
         <li>
             <img src="./images/cutting-hair1.jpg" alt="cutting-hair1">
@@ -129,10 +143,8 @@
             <img src="./images/cutting-hair4.jpg" alt="cutting-hair4">
         </li>
     </ul>
+     </section>
 
-    <section>
-
-    </section>
 </main>
     <footer>
         <div><h2>Book a Service</h2>
